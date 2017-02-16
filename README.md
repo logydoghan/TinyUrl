@@ -15,7 +15,7 @@ II. Run local MongoDB and apply key in app/server.js (I use MLab)
 
 Now you should be able to access the project by going to http://localhost:3000 in your browser.
 
-
+----------------------------------------------------------------------------------------------------
 
 B. Implementing with Docker
 
