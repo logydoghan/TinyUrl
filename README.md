@@ -8,9 +8,9 @@ Git clone. And then:
 
 I. Run following command in your terminal:
 
-npm install (if npm is not installed, install Node.js)
+a. npm install (if npm is not installed, install Node.js)
 
-npm dependencies install (express, etc...)
+b. npm dependencies install (express, etc...)
 
 II. Run local MongoDB and apply key in app/server.js (I use MLab)
 
@@ -28,12 +28,12 @@ II. Download Redis
 
 III. Run local MongoDB and apply key in app/server.js (I use MLab)
 
-III. Run following command in your terminal:
+IV. Run following command in your terminal:
 
-npm install (if npm is not installed, install Node.js)
+a. npm install (if npm is not installed, install Node.js)
 
-npm dependencies install (express, etc...)
+b. npm dependencies install (express, etc...)
 
-docker-compose up --build
+c. docker-compose up --build
 
 Now you should be able to access the project by going to http://localhost:3000 in your browser.
