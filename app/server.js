@@ -5,7 +5,7 @@ var redirectRouter = require('./routes/redirect');
 var indexRouter = require('./routes/index');
 var mongoose = require('mongoose');
 
-mongoose.connect("mongodb://logydoghan:33068doghan@ds011278.mlab.com:11278/tinyurl");
+mongoose.connect("""YOUR MONGODB CREDENTIALS""");
 
 app.use("/public", express.static(__dirname + "/public"));
 
